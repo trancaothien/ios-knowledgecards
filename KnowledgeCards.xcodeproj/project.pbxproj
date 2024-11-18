@@ -1611,7 +1611,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9AE185914CA6B4F9EC2735D5 /* Pods-KnowledgeCards.debug development.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Development;
 				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DISPLAY_NAME = "Quick Knowledge";
@@ -1823,7 +1823,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A72AADECA6FF5A79EE2A5950 /* Pods-KnowledgeCards.release development.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Development;
 				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DISPLAY_NAME = "Quick Knowledge";
@@ -2141,7 +2141,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DDFF558797894F82C7D9B0C /* Pods-KnowledgeCards.release staging.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Staging;
 				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DISPLAY_NAME = "Quick Knowledge";
@@ -2338,7 +2338,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 93CE6D45A1BD3778894A7314 /* Pods-KnowledgeCards.debug staging.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Staging;
 				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DISPLAY_NAME = "Quick Knowledge";
@@ -2560,7 +2560,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB654C38774F020AEC17FF85 /* Pods-KnowledgeCards.debug production.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Production;
 				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -2616,7 +2616,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42E0A8AB1E9A288F7F21777C /* Pods-KnowledgeCards.release production.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Production;
 				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
