@@ -18,12 +18,20 @@ target 'KnowledgeCards' do
 
   # Tools
   pod 'Firebase/Crashlytics'
-  pod 'FirebaseAnalytics'
+  pod 'Firebase/Analytics'
   pod 'R.swift'
   pod 'Factory'
-
+  
+  # Tools - Added by CaoThang
+  pod 'Firebase/Auth'
+  pod "GoogleSignIn"
+  pod 'GoogleSignInSwiftSupport'
+  pod 'TwitterSignIn'
+  
+  
   # Development
   pod 'Wormholy', :configurations => ['Debug Development', 'Debug Staging', 'Debug Production']
+
 
   target 'KnowledgeCardsTests' do
     inherit! :search_paths
